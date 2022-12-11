@@ -1,0 +1,434 @@
+@keyframes color {
+    80%{color: aqua; }
+    50%{color: rgb(6, 69, 178); }
+    90%{color: rgb(115, 198, 7);}
+    20%{color: rgb(235, 120, 20);}
+    80%{color: rgb(93, 6, 100);}
+    75%{color: rgb(206, 186, 6);}
+}
+@keyframes icon {
+    80%{border-color: aqua; }
+    50%{border-color: rgb(6, 69, 178); }
+    90%{border-color: rgb(115, 198, 7);}
+    20%{border-color: rgb(235, 120, 20);}
+    80%{border-color: rgb(93, 6, 100);}
+    75%{border-color: rgb(206, 186, 6);}
+}
+body{
+    background-color: rgb(195, 195, 189);
+}
+#p1{
+    margin-top: 10px;
+    font-size: 60px;
+    word-spacing: 500px;
+}
+#buy{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#back{
+    animation-name: color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#border3{ 
+    animation: icon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border: 10px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+#border4{
+    animation: icon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border: 10px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 50%;
+}
+#border5{
+    animation: icon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border: 10px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 50%;
+}
+#border6{
+    animation: icon;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    border: 10px solid red;
+    height: 200px;
+    width: 200px;
+    margin-left: 180px;
+    border-radius: 50%;
+}
+#menwear{
+    border-radius: 50%;
+   margin-left: 0px;
+   margin-top: -15px;
+
+}
+#womanwear1{
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: -15px;
+}
+#winter{
+    border-radius: 50%;
+    margin-left: 0px;
+} 
+#winter1{
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: -5px;
+} 
+#items1{
+    margin-top: 100px;
+    border: 1px solid rgb(15, 67, 180);
+}
+#asdw{
+
+        border-radius: 50%;
+    } 
+
+#c1{
+    display: inline-block;
+    border: 1px solid red;
+    height: 400px;
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 20px;
+    /* padding-top: 100px; */
+}
+#c2{
+    display: inline-block;
+    border: 1px solid red;
+    height: 400px;
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+#c3{
+    display: inline-block;
+    border: 1px solid red;
+    height: 400px;
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+#men1{
+    padding-top: 200px;
+    text-align: center;
+    margin-top: 200px;
+}
+#item{
+    padding-top: 100px;
+    padding-left: 100px;
+   
+}
+#pic1{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#item1{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: -50px;
+    width: 200px;
+    height: 550px;
+}
+#item1:hover{
+box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+.item1{
+    background-color: rgb(10, 237, 237);
+}
+.item5{
+    background-color: rgb(79, 58, 240);
+}
+.item6{
+    background-color: rgb(230, 40, 244);
+}
+.item7{
+    background-color: rgb(245, 43, 80);
+}
+.item8{
+    background-color: rgb(242, 195, 44);
+}
+#pic5{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#pic6{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#pic7{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#pic8{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#pic2{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#item2{
+    margin-left: 150px;
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 550px;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 25px
+}
+.item2{
+    background-color: rgb(173, 179, 176);
+}
+#item3{
+    margin-left: 150px;
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 550px;
+    border-radius: 5%;
+}
+#item3:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#item2:hover{
+        box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#item4:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+.item3{
+    background-color: rgb(156, 248, 82);
+}
+
+#pic3{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+#item4{
+    margin-left: 150px;
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 550px;
+    border-radius: 5%;
+}
+.item4{
+    background-color: darksalmon;
+}
+#pic4{
+    width: 200px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#red2{
+    text-align: center;
+    margin: -10px;
+}
+#red3{
+    font-size: 15px;
+    /* margin-top: -30px; */
+}
+
+#red4{
+    color: rgba(255, 247, 8, 0.991);
+    margin-top: -10px;
+}
+
+    #red9{
+        color: rgba(255, 247, 8, 0.991);
+        margin-top: -10px;
+    }
+
+#red5{
+    margin-top: -23px;
+    margin-right: 100px;       
+}
+#asd{
+    font-style: italic;
+    font-size: 20px;
+}
+#red6{
+    margin-top: -20px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#red7{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -10px;
+}
+#pay1{
+    margin-top: -10px;
+    
+}
+#button{
+    border-radius: 25px;
+    font-size: 15px;
+}
+#red8{
+    text-align: center;
+}
+#red9{
+    color: rgba(255, 247, 8, 0.991);
+    text-align: center;
+    font-size: 25px;
+}
+#red10{
+    padding-left: 20px;
+    font-size: 24px;  
+    margin-top: -20px;
+}
+#red11{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+#red12{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+#red13{
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 60px;
+}
+#button1{
+    border-radius: 25px;
+    font-size: 15px;
+}
+#selector{
+    font-family: 'Nunito Sans', sans-serif; 
+    margin-top: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 1000px;
+    padding-left: 100px;
+    background-color: rgb(186, 194, 194);
+    padding: 20px 20px;
+}
+#iframe1{
+    margin-top: 60px;
+    margin-left: 80px;    
+}#iframe2{
+    margin-top: 60px;
+    margin-left: 80px;    
+}
+#buy{
+    font-size: 20px;
+}
+#es{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#last4{
+    margin-top: -100px;
+}
+#hh{
+    float: left;
+}
+#insta{
+    float: right;
+    margin-top: -250px;
+    margin-right: 300px;
+}
+#insta1{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 4px solid red;
+}
+#follow{
+    font-family: 'Dosis', sans-serif;
+    float: right;
+    margin-top: -300px;
+    margin-right: 180px;
+    font-size: 30px;
+}
+#facebook1{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 4px solid red;
+}
+#facebook{
+    float: right;
+    margin-top: -100px;
+    margin-right: 300px;
+}
+#twitter1{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 4px solid red;
+}
+#twitter{
+        float: right;
+        margin-top: -100px;
+        margin-right: 100px;
+}
+#linkdin1{
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+#linkdin{
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 4px solid red;
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+}
+

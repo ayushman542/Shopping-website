@@ -1,0 +1,19 @@
+#box1{
+    padding: 0px 30px;
+    background-color: aquamarine;
+}
+#border{
+    display: flex;
+}
+#advantage{
+   padding-left: 80vh;
+   font-size: 7vh;
+}
+#back{
+    font-size: 6vh;
+}
+#p1{
+    text-align: justify;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

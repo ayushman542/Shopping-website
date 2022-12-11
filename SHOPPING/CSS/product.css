@@ -1,0 +1,43 @@
+#border{
+    display: flex;
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.box1{
+    margin-left: 200px;
+    background-color: rgb(232, 220, 61);
+    font-weight: 500px;
+}
+#a{
+   color: black;
+   text-decoration: none;
+}
+.box2{
+    margin-left: 200px;
+    background-color: chartreuse;
+    font-family: 'Roboto Slab', serif;
+}.box3{
+    margin-left: 200px;
+    background-color: aqua;
+    font-family: 'Roboto Slab', serif;
+}
+.box1:hover{
+    background-color: darkcyan;
+}
+.box2:hover{
+    background-color: rgb(239, 86, 239);
+}
+.box3:hover{
+    background-color: rgb(149, 239, 66);
+}
+#back{
+    font-size: 60px;
+    margin-left: 40px;
+}

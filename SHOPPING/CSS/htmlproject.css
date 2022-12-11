@@ -1,0 +1,583 @@
+@keyframes image {
+       from { background-color: red; font-size: 45px; }
+    to { background-color: aquamarine; font-size: 30px; }
+}
+@keyframes image36 {
+    from { background-color: red;  }
+ to { background-color: aquamarine;  }
+}
+@keyframes image1 {
+    100% { background-color: rgb(12, 152, 171);  font-size: 45px;  }
+    10% { background-color: rgb(236, 115, 15); font-size: 30px;}
+}
+@keyframes image2 {
+    40%{ background-color: rgb(6, 120, 82);  font-size: 45px;   }
+    50% { background-color: rgb(148, 249, 65); font-size: 30px; }
+   
+}
+@keyframes image3 {
+    40%{ background-color: rgb(19, 205, 192);  font-size: 45px;   }
+    50% { background-color: rgb(246, 202, 5); font-size: 30px;}
+  
+}
+.yellow{
+    background-color: aqua;
+}
+.pink{
+    background-color: cadetblue;
+}
+
+.green{
+    background-color: rgba(170, 225, 17, 0.842);
+}
+#item1:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#item2:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#item3:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#item4:hover{
+    box-shadow: 2px 2px 10px 10px rgb(255, 92, 92);
+}
+#border1 {
+    height: 500px;
+    border: 3px solid black;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.border1{
+    background: url(https://thumbs.dreamstime.com/b/little-girl-pointing-something-family-shopping-parents-daughter-copy-space-holding-shopper-bags-yellow-studio-156232563.jpg);
+}
+
+#search {
+    margin-top: 170px;
+    margin-left: 450px;
+}
+#search1 {
+    padding-left: 400px;
+    font-size: 20px;
+    border: 5px solid rgb(121, 235, 245);
+    border-radius: 25px;
+}
+
+#search3 {
+    font-size: 25px;
+    color: aquamarine;
+}
+
+#ul {
+    list-style-type: none;
+}
+
+#li {
+    font-weight: bolder;
+    color: rgb(255, 252, 253);
+    float: right;
+    padding-right: 100px;
+    font-size: 50px;
+}
+
+#p11 {
+    animation-name: image36;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 100px;
+    margin-left: 500px;
+    padding: 0px 20px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(244, 248, 247);
+}
+
+#p11:hover {
+    font-size: 30px;
+    background: radial-gradient(rgb(72, 213, 20), rgb(107, 232, 5));
+}
+
+#marquee {
+    background: radial-gradient(rgb(44, 166, 210), rgb(121, 215, 229), rgb(83, 238, 189));
+    color: rgb(16, 17, 18);
+    height: 60px;
+    font-size: 40px;
+
+}
+
+#fruit {
+    background: radial-gradient(rgb(5, 220, 231), rgb(3, 138, 145));
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 25px;
+    padding: 0px 20px;
+}
+
+#vegetable {
+    background: radial-gradient(rgb(188, 179, 5), rgb(219, 189, 1));
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 25px;
+    padding: 0px 20px;
+    margin-left: 40px;
+
+}
+
+#dryfruit {
+    background: radial-gradient(rgb(186, 246, 8), rgb(105, 190, 1));
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 25px;
+    padding: 0px 20px;
+    margin-left: 40px;
+}
+
+#house {
+    background: radial-gradient(rgb(240, 105, 43), rgb(240, 7, 159));
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 25px;
+    padding: 0px 5px;
+    margin-left: 40px;
+}
+
+#u {
+    background: radial-gradient(rgb(114, 69, 69), green, pink);
+    text-underline-position: above;
+}
+
+table {
+    display: inline-block;
+    margin: 100px 100px;
+    border: 1px solid rgb(14, 13, 13);
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#sale1 {
+    
+    display: inline-block;
+    /* margin-top: 20px; */
+    margin-left: 150px;
+    height: 210px;
+    width: 210px;
+    background: radial-gradient(rgb(235, 235, 240), rgb(122, 255, 246));
+    border-radius: 50%;
+}
+
+#p6 {
+    padding-bottom: 20px;
+    padding-left: 7px;
+    /* margin-bottom: 30px; */
+    mix-blend-mode: multiply;
+    color: chartreuse;
+
+}
+
+#sale2 {
+    animation-name: image;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 210px;
+    width: 210px;
+    background: radial-gradient(rgb(235, 235, 240),
+
+            rgb(218, 247, 247));
+    border-radius: 50%;
+}
+
+#p7 {
+    padding-left: 10px;
+    padding-bottom: 50px;
+    mix-blend-mode: multiply;
+
+}
+
+#sale3 {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(rgb(235, 235, 240), rgb(246, 197, 91));
+    border-radius: 50%;
+}
+
+#p8 {
+
+    padding-left: 10px;
+    /* padding-top: 20px; */
+    mix-blend-mode: multiply;
+    color: rgb(29, 231, 245);
+
+}
+
+#sale4 {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(rgb(221, 221, 236), rgb(158, 249, 226));
+    border-radius: 50%;
+}
+
+#p9 {
+    padding-left: 8px;
+    /* padding-top: 40px; */
+    mix-blend-mode: multiply;
+
+}
+
+#li:hover {
+
+    color: rgb(9, 253, 225);
+    text-decoration: underline;
+}
+
+#box {
+    display: block;
+    margin-left: 10px;
+    margin-top: 100px;
+    /* border: 10px solid black; */
+    width: 250px;
+    height: 400px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: radial-gradient(rgb(11, 71, 90), rgb(255, 255, 255))
+}
+
+#borderc {
+    /* border: 1px solid red; */
+    width: 230px;
+    height: 300px;
+    border-radius: 25px;
+    padding: 10px 10px;
+
+}
+
+#tags {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: -0px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+#head {
+    display: inline-block;
+    border-radius: 25px;
+    width: 250px;
+    height: 400px;
+    /* margin-left: 350px; */
+    margin-top: 20px;
+    background: radial-gradient(rgb(11, 71, 90), rgb(255, 255, 255))
+}
+
+#fruitsp {
+    box-sizing: content-box;
+    border-radius: 20px;
+    width: 220px;
+    height: 300px;
+    padding: 10px 10px;
+}
+
+#head1 {
+    display: inline-block;
+    border-radius: 25px;
+    width: 250px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background: radial-gradient(rgb(11, 71, 90), rgb(255, 255, 255))
+}
+
+#fruitsp2 {
+    box-sizing: content-box;
+    border-radius: 20px;
+    width: 220px;
+    height: 300px;
+    padding: 10px 10px;
+}
+#marquee1{
+    animation-name: image3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background: radial-gradient(rgb(5, 220, 231), rgb(3, 138, 145));
+    color: rgb(5, 5, 5);
+    height: 60px;
+    font-size: 40px;
+}
+#cash{
+    animation-name: image;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: rgb(171, 247, 9);
+    border: 1px solid red;
+    font-size: 40px;
+    margin-left: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#payment{
+    animation-name: image1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+margin-left: 120px;
+border: 1px solid red;
+font-size: 40px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+#discount{ 
+    background-color: rgb(78, 5, 131);
+    animation-name: image2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+    border: 1px solid red;
+    font-size: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}    
+#help{
+    background-color: rgb(147, 9, 145);
+    animation-name: image3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+        margin-left: 80px;
+        border: 1px solid red;
+        font-size: 40px;
+        border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#container{
+    display: flex;
+    border: 1px solid black;
+    background: radial-gradient(rgb(122, 231, 122),rgb(243, 137, 118),rgb(228, 82, 3));
+    /* align-items: center;
+    justify-content: center; */
+}
+#clothes{
+    animation-name: image12;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+}
+#electric{
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    background-image: url(https://m.media-amazon.com/images/I/61kWB+uzR2L._SX522_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pulses{ 
+    animation-name: image13;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfBJqi-Yv6EgfoIF7wOkcaVFZy4oFoUWWYPqpI034sBTDJduAggdYrJXl7WVjcnx-oyKt-33gQS3fFhj6q3nmzWVHRgqtzUp0VOk_-lSVOZ4kxPQMtfFWX6g&usqp=CAE);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#otherthing{
+    animation-name: image14;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRlEKhU4ChadLKMxEdyyfOI9JLw0uXjU2bWg_LNRtPIapqvYZ6HZ8YcMi4AOr3YKFM6P7GdU68qvKwR93-ZAYmorx3_0Sg0jJkEiLQpXMD1hdHNcBBRtwxeNw&usqp=CAE);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border-radius: 25px;
+}
+@keyframes image12 {
+    80%{ background: url(https://m.media-amazon.com/images/I/51lN5z6NI8L._UX679_.jpg); height: 500px; background-repeat: no-repeat;
+        background-size: cover; }
+    40% { background: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSR60uS5cKjbSVeDZtd9Hw1SZsqgnWyeDRyFJEg1SsiCUgj6vUSnSuHnOgsN6nkgXFSZ2SLSIfq6P3M5uYngW1sT0HFpRaExAhdEauiKOBF&usqp=CAE); height: 500px; background-position: center;
+        background-size: cover; background-repeat: no-repeat;  }
+    100% { background: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQn61zMV8BwGVZEFEQtXTuqaP_nEDS4ClZPSTLw5pUWmxEbI77sxU52zrUlXnsUV9GfmdZDPEvo1XtGG3aJpjqEgrgGggbI&usqp=CAE); height: 500px; background-position: center;
+            background-size: cover; background-repeat: no-repeat; }
+    /* 60% { background: url(https://chandogi.com/wp-content/uploads/2022/07/jpg_c9501f11-22d6-475a-97a6-a6dc798531cf.jpg); height: 500px; background-position: center;
+                background-size: cover; background-repeat: no-repeat; } */
+      40% { background: url(https://liveryclub.com/wp-content/uploads/2022/02/image_d6b0915c-e00b-4e4c-9318-2fd6270208ca.jpg); height: 500px; background-position: center; 
+                    background-size: cover; background-repeat: no-repeat; }
+}
+@keyframes image13 {
+    80%{ background: url(https://5.imimg.com/data5/SF/FY/RW/SELLER-1602188/pulses-packaging-pouches-500x500.PNG); height: 500px; background-repeat: no-repeat;
+        background-size: cover; }
+    40% { background: url(https://5.imimg.com/data5/PW/DT/DU/SELLER-8343585/pulses-packaging-pouch-500x500.jpg); height: 500px; background-position: center;
+        background-size: cover; background-repeat: no-repeat;  }
+    100% { background: url(https://rukminim1.flixcart.com/image/612/612/kvtuxe80/pulses/m/g/s/800-popular-malka-dal-combo-400g-each-2-moong-dal-goshudh-original-imag8n52aw7j7mrz.jpeg?q=70); height: 500px; background-position: center;
+            background-size: cover; background-repeat: no-repeat; }
+    60% { background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMwYhx0uK24HR-RakGxLqA2lE3QGDT2dY5w&usqp=CAU); height: 500px; background-position: center;
+                background-size: cover; background-repeat: no-repeat; }
+    40% { background: url(https://3.imimg.com/data3/OJ/NR/FUSIONI-1483252/prod-image-1000x1000.jpg); height: 500px; background-position: center; 
+                    background-size: cover; background-repeat: no-repeat; }
+    80%{ background: url(https://cdn.shopify.com/s/files/1/0645/9519/8199/products/KABULI_CHANA_Front150_180x@2x.png?v=1654788390); height: 500px; background-repeat: no-repeat;
+                        background-size: cover; }
+    40% { background: url(https://cdn.shopify.com/s/files/1/0374/3006/7259/products/41X2SbDNO8S_500x.jpg?v=1622438507); height: 500px; background-position: center;
+                        background-size: cover; background-repeat: no-repeat;  }
+    100% { background: url(https://m.media-amazon.com/images/I/71HboTL1eVL._AC_UL320_.jpg); height: 500px; background-position: center;
+                            background-size: cover; background-repeat: no-repeat; }
+}
+@keyframes image14 {
+    60% { background: url(https://c8.alamy.com/comp/DT0PN9/packet-of-jammie-dodgers-biscuits-uk-DT0PN9.jpg); height: 500px; background-position: center;
+                background-size: cover; background-repeat: no-repeat; }
+      40% { background: url(https://tiimg.tistatic.com/fp/1/007/922/sweet-and-delicious-round-amul-with-50-grams-packet-pack-chocolate-cookies-biscuit--163.jpg); height: 500px; background-position: center; 
+                    background-size: cover; background-repeat: no-repeat; }
+}
+#heart{color: red;}
+.last2{
+    background-color: rgb(249, 221, 37);
+    height: 500px;
+    margin-top: -40px;
+    border-radius: 25px;
+}
+.last1{
+    background-color: rgb(176, 7, 206);
+}
+#pi1{
+    font-family: 'Rubik Distressed', cursive;
+    text-align: left;
+    color: aliceblue;
+    padding-top: 40px;
+    font-size: 40px;
+    padding-left: 100px; 
+}
+#pi2{
+    padding-left: 80px;
+    text-align: left;
+}
+.pi1{
+    font-size: 30px; 
+    font-family: 'Quicksand', sans-serif;
+
+}
+#pi3{
+    padding-left: 60px;
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+#icon7{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 100px;
+}
+#icon8{
+    font-size: 40px;
+    padding-left: 80px;
+}
+#icon9{
+    font-size: 40px;
+    padding-left: 80px;
+}
+#insta{
+    float: right;
+    font-size: 40px;
+    padding-right: 20px;
+}
+#facebook{
+    float: right;
+    font-size: 40px;
+    padding-right: 20px;
+}
+#linkdin{
+    float: right;
+    font-size: 40px;
+    padding-right: 20px;
+}
+#gmail{
+    float: right;
+    font-size: 40px;
+    padding-right: 30px; 
+}
+#kanika{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+#as2{
+    margin-top: -80px;
+}
+.link12{
+    color: inherit;
+    text-decoration: none;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+}
+.se{
+    color:inherit;
+    text-decoration: none;
+}
+#happy{
+    color: rgb(236, 221, 3);
+}
+#simple{
+    color: rgb(56, 2, 23);
+}#sad{
+    color: rgb(14, 232, 181);
+}
+#sad{
+    color: rgb(3, 49, 88);
+}
+#instacolor{
+    color: rgb(135, 4, 26);
+}
+#facebook{
+    color: rgb(5, 12, 211);
+}
+#linkdin{
+    color: rgb(3, 69, 113);
+}
+#gmailcolor{
+    color: black;
+}
+#italic{
+    font-size: 35px;
+    float: right;
+    padding-right: 30px;
+}
+#asew{
+    position: fixed;
+    display: inline-block;
+}
+
+
+
+
+
+
